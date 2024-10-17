@@ -1,0 +1,77 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.search-bar input {
+  padding: 12px;
+  width: 870px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 15px;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 18px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.cart::before {
+  content: "🛒";
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  margin-top: -20px;
+}
+
+.nav-item {
+  margin: 0 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.highlight-red {
+  color: red;
+  font-weight: bold;
+}
+
+.highlight-gold {
+  color: gold;
+  font-weight: bold;
+}
